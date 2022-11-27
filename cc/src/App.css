@@ -9,7 +9,15 @@ h1{
 }
 .header{
     margin: auto;
-   
-    background-color: #810371;
+    height: 30px;
+    background-image: linear-gradient(to right, #970D1A ,#4E204D );
     text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: 12px;
+    min-height: 100vh;
 }
+.header span{
+    color: #f804d8;
+}
+

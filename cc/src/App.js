@@ -12,7 +12,7 @@ function App() {
   const [rates, setRates] = useState([]);
 
   useEffect(() => {
-    axios.get('https://api.apilayer.com/fixer/latest?base=USD&apikey=zxzjH90Er6bmTxpjztyHPNcrODU0DuZe')
+    axios.get('https://api.exchangerate.host/latest?base=USD')
       .then(response => {
         setRates(response.data.rates);
       })
